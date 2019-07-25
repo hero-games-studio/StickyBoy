@@ -175,7 +175,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.75, y: 1.5}
+  m_ConnectedAnchor: {x: 1.7500002, y: 1.5000001}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -199,7 +199,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.8999999, y: -1.0500002}
+  m_ConnectedAnchor: {x: -1.8999997, y: -1.0500002}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 1812045275750648551}
   - component: {fileID: 1643436740471029322}
   - component: {fileID: 4318047313796468561}
-  - component: {fileID: 6053624751746775708}
+  - component: {fileID: 1752009238}
   m_Layer: 0
   m_Name: character_0007_foot-L
   m_TagString: Untagged
@@ -344,7 +344,7 @@ DistanceJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.43500003, y: -1.0747501}
+  m_ConnectedAnchor: {x: 0.62999994, y: -5.4095}
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_MaxDistanceOnly: 1
@@ -362,9 +362,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stick: {fileID: 1643436740471029322}
   sticked: 0
-  line: {fileID: 6053624751746775708}
+  line: {fileID: 1752009238}
   Mat: {fileID: 2100000, guid: 059844b30b91d9a44890ccb95e6f74d3, type: 2}
---- !u!120 &6053624751746775708
+--- !u!120 &1752009238
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 8702786331787589141}
   - component: {fileID: 5663696541700415181}
   - component: {fileID: 5666455108104806592}
-  - component: {fileID: 8793551097870965221}
+  - component: {fileID: 415165076}
   m_Layer: 0
   m_Name: character_0003_hand-L
   m_TagString: Untagged
@@ -664,7 +664,7 @@ DistanceJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.8775, y: 0.51750004}
+  m_ConnectedAnchor: {x: -0.255, y: -2.225}
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_MaxDistanceOnly: 1
@@ -682,9 +682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stick: {fileID: 5663696541700415181}
   sticked: 0
-  line: {fileID: 8793551097870965221}
+  line: {fileID: 415165076}
   Mat: {fileID: 2100000, guid: 059844b30b91d9a44890ccb95e6f74d3, type: 2}
---- !u!120 &8793551097870965221
+--- !u!120 &415165076
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 7488852571072323298}
   - component: {fileID: 3713053801821807509}
   - component: {fileID: 937404158848753082}
-  - component: {fileID: 2266682372103122881}
+  - component: {fileID: 1108131499}
   m_Layer: 0
   m_Name: character_0006_foot-R
   m_TagString: Untagged
@@ -1189,7 +1189,7 @@ DistanceJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.45150003, y: -1.0942501}
+  m_ConnectedAnchor: {x: 2.403, y: -5.4485}
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_MaxDistanceOnly: 1
@@ -1207,9 +1207,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stick: {fileID: 3713053801821807509}
   sticked: 0
-  line: {fileID: 2266682372103122881}
+  line: {fileID: 1108131499}
   Mat: {fileID: 2100000, guid: 059844b30b91d9a44890ccb95e6f74d3, type: 2}
---- !u!120 &2266682372103122881
+--- !u!120 &1108131499
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1695,7 +1695,7 @@ Transform:
   m_GameObject: {fileID: 4302130557145820377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 3064644605262015402}
   - {fileID: 7987299005226940409}
@@ -1890,7 +1890,7 @@ GameObject:
   - component: {fileID: 8760182889214724216}
   - component: {fileID: 3529366944389370234}
   - component: {fileID: 7200210895788164336}
-  - component: {fileID: 6508116444387304256}
+  - component: {fileID: 894851752}
   m_Layer: 0
   m_Name: character_0002_Hand-R
   m_TagString: Untagged
@@ -2012,7 +2012,7 @@ DistanceJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.8775, y: 0.51750004}
+  m_ConnectedAnchor: {x: 3.255, y: -2.225}
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_MaxDistanceOnly: 1
@@ -2030,9 +2030,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stick: {fileID: 3529366944389370234}
   sticked: 0
-  line: {fileID: 6508116444387304256}
+  line: {fileID: 894851752}
   Mat: {fileID: 2100000, guid: 059844b30b91d9a44890ccb95e6f74d3, type: 2}
---- !u!120 &6508116444387304256
+--- !u!120 &894851752
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2380,7 +2380,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.4, y: -2.44}
+  m_ConnectedAnchor: {x: -0.4, y: -2.4400003}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2404,7 +2404,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.3000001, y: 2.2249997}
+  m_ConnectedAnchor: {x: 1.3000001, y: 2.225}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2449,7 +2449,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.75, y: 1.5}
+  m_ConnectedAnchor: {x: -1.75, y: 1.5000001}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

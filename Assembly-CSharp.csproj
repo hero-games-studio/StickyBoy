@@ -155,7 +155,6 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\GameAnalytics\Readme.txt" />
-    <None Include="Assets\Sprites\modularcharacters\Spritesheet\sheet_shirts.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
@@ -163,27 +162,21 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\Sprites\modularcharacters\Spritesheet\sheet_hair.xml" />
-    <None Include="Assets\Sprites\modularcharacters\license.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Confetti FX\Readme.txt" />
-    <None Include="Assets\Sprites\modularcharacters\Spritesheet\sheet_shoes.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\FacebookSDK\link.xml" />
-    <None Include="Assets\Sprites\modularcharacters\Spritesheet\sheet_skin.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\Sprites\modularcharacters\Spritesheet\sheet_face.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Shader\Ripple.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Sprites\modularcharacters\Spritesheet\sheet_pants.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -484,6 +477,18 @@
     <Reference Include="nunit.framework">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -495,18 +500,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Library/PackageCache/com.unity.collections@0.0.9-preview.18/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookNamedPipeClient">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

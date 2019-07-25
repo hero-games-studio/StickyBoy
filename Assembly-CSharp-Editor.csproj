@@ -405,6 +405,33 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.95.0">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.95.0">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
+      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
+    </Reference>
     <Reference Include="NSubstitute">
       <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Library/PackageCache/com.unity.2d.common@1.1.0-preview.2/Tests/Editor/Lib/NSubstitute/NSubstitute.dll</HintPath>
     </Reference>
@@ -425,33 +452,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver_v1.2.95.0">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.95.0">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookNamedPipeClient">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Editor">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/lamaa/OneDrive/Desktop/Lama/HeroGame/WeekSix/StickyBoy_Wen/StickyBoy/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
