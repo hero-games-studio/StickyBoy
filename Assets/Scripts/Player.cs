@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using GameAnalyticsSDK;
+
 
 public class Player : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        GameAnalytics.Initialize();
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, Application.version,LevelNumber());
         NumberOfGrab_Text.text = (NumberOfGrab.ToString()); // Convert from int to string;
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -24,6 +28,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag== "Finish")
         {
             Instantiate(WinParticle , transform.position , Quaternion.identity);
+            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, Application.version,LevelNumber());
             Invoke("ResetGame", 3);
         }
     }
@@ -37,6 +42,10 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+    public int LevelNumber()
+    {
+        return SceneManager.GetActiveScene().buildIndex + 1;
     }
     public void DidGrapObject()
     {
