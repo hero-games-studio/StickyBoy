@@ -249,12 +249,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b36379db8feb415687a169ddefa1b9f, type: 3}
---- !u!4 &279850430 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4546574055903801026, guid: d0163ba797ee59749921dd9d63ebc431,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051279774}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &289635309
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,8 +827,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d0163ba797ee59749921dd9d63ebc431, type: 3}
 --- !u!4 &528519759 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4546574055903801026, guid: d0163ba797ee59749921dd9d63ebc431,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 528519758}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &566203785
@@ -866,7 +859,7 @@ Transform:
   m_Children:
   - {fileID: 3717491416000319611}
   - {fileID: 528519759}
-  - {fileID: 279850430}
+  - {fileID: 2051279775}
   - {fileID: 273512234571723495}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -886,7 +879,7 @@ PrefabInstance:
     - target: {fileID: 33305609183940650, guid: fcecbeb1bbec64231a098bbd0eb227e7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.01
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 33305609183940650, guid: fcecbeb1bbec64231a098bbd0eb227e7,
         type: 3}
@@ -1214,7 +1207,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.68235296, g: 0.9339623, b: 0.9411765, a: 0}
+  m_BackGroundColor: {r: 0.68235296, g: 0.93725497, b: 0.93725497, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1623,7 +1616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 465288, guid: a9d27d37bab3c447b8eb7a2a6756e952, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 465288, guid: a9d27d37bab3c447b8eb7a2a6756e952, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2403,6 +2396,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0163ba797ee59749921dd9d63ebc431, type: 3}
+--- !u!4 &2051279775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2051279774}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2107156448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8011052839962178390, guid: 61123c863fe071f498322eb92a65c2e5,
@@ -2481,8 +2479,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a3935b37ce0af834abccb365913e8f46, type: 3}
 --- !u!4 &273512234571723495 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1555408056143725874, guid: a3935b37ce0af834abccb365913e8f46,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 273512234571723494}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &960475416810841982
@@ -2552,6 +2549,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 960475418599732167, guid: 5d8a40324dae65a46a9542c8a6ee6f8e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 803121b5aaa003746a44bbd3bc9ce6fb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d8a40324dae65a46a9542c8a6ee6f8e, type: 3}
 --- !u!1001 &1423759493957164827
@@ -2900,8 +2903,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d0163ba797ee59749921dd9d63ebc431, type: 3}
 --- !u!4 &3717491416000319611 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4546574055903801026, guid: d0163ba797ee59749921dd9d63ebc431,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 3717491416000319610}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6678083689530239880
