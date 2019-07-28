@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     }
     private void ResetGame()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 9)
+        if (SceneManager.GetActiveScene().buildIndex == 19)
         {
             SceneManager.LoadScene(0);
         }
