@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/PLRed.unity
+    guid: d36ba55ea1ae2064b9174b0ddf2bbdc0
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: caf7d1837190b4b6bbd5db58af05bc10
   - enabled: 1

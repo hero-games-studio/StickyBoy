@@ -15,10 +15,12 @@ public class Player : MonoBehaviour
     bool DidaOneGarp=true;
     public GameObject[] Paint;
     public GameObject GrabParticle;
-
+    PlayerLevelReached playerLevelReached;
 
     void Start()
     {
+        
+        playerLevelReached = GameObject.Find("LevelReachedManager").GetComponent<PlayerLevelReached>();
         GameAnalytics.Initialize();
         GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, Application.version,LevelNumber());
         NumberOfGrab_Text.text = (NumberOfGrab.ToString()); // Convert from int to string;
@@ -30,11 +32,12 @@ public class Player : MonoBehaviour
             Instantiate(WinParticle , transform.position , Quaternion.identity);
             GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, Application.version,LevelNumber());
             Invoke("ResetGame", 3);
+            playerLevelReached.PlayerLevel();
         }
     }
     private void ResetGame()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 19)
+        if (SceneManager.GetActiveScene().buildIndex == 20 )
         {
             SceneManager.LoadScene(0);
         }
