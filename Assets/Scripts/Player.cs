@@ -19,11 +19,10 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        
-        playerLevelReached = GameObject.Find("LevelReachedManager").GetComponent<PlayerLevelReached>();
+        NumberOfGrab_Text.text = NumberOfGrab.ToString(); // Convert from int to string;
         GameAnalytics.Initialize();
         GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, Application.version,LevelNumber());
-        NumberOfGrab_Text.text = (NumberOfGrab.ToString()); // Convert from int to string;
+        playerLevelReached = GameObject.Find("LevelReachedManager").GetComponent<PlayerLevelReached>();
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -37,7 +36,7 @@ public class Player : MonoBehaviour
     }
     private void ResetGame()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 20 )
+        if (SceneManager.GetActiveScene().buildIndex == 20 ) // start game over
         {
             SceneManager.LoadScene(0);
         }

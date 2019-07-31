@@ -412,7 +412,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.12418747
+        value: 0.21373367
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -425,7 +425,7 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
-      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 0.6117647}
+      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -732,7 +732,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.12418747
+        value: 0.21373367
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -745,7 +745,7 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
-      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 0.6117647}
+      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1257,7 +1257,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.12418747
+        value: 0.21373367
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1270,7 +1270,7 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
-      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 0.6117647}
+      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2080,7 +2080,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.12418747
+        value: 0.21373367
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2093,7 +2093,7 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
-      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 0.6117647}
+      key1: {r: 0.058823533, g: 0.023529414, b: 0.8470589, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
